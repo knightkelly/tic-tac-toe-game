@@ -1,3 +1,11 @@
+** I wrote the entirety of all 3 files in the public folder
+** I did not write the app.js file
+
+* The goal of this project was putting together event listeners, cookies and etc
+* Game should be saved through refreshes with cookies; will reset upon refresh if game was over.
+
+--------------------------------------------------- below description came with project..
+
 # Long Practice: Tic-Tac-Toe DOM
 
 In this practice, you will create a well-designed HTML+CSS+JS browser-based
