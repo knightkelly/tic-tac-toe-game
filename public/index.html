@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="./main.css">
+  <script src="./tic-tac-toe.js"></script>
+</head>
+
+<body>
+  <!-- HTML structure for the UI: -->
+  <h1 id="winner-heading">WINNER: <span id="winner-span"></span></h1>
+
+  <table id="game-board-table">
+    <tbody id="table-body">
+      <tr id="top-row">
+        <td id="top-left" data-row="top" data-col="left" data-contents="empty"></td>
+        <td id="top-center" data-row="top" data-col="center" data-contents="empty"></td>
+        <td id="top-right" data-row="top" data-col="right" data-contents="empty"></td>
+      </tr>
+      <tr id="center-row">
+        <td id="center-left" data-row="center" data-col="left" data-contents="empty"></td>
+        <td id="center-center" data-row="center" data-col="center" data-contents="empty"></td>
+        <td id="center-right" data-row="center" data-col="right" data-contents="empty"></td>
+      </tr>
+      <tr id="bottom-row">
+        <td id="bottom-left" data-row="bottom" data-col="left" data-contents="empty"></td>
+        <td id="bottom-center" data-row="bottom" data-col="center" data-contents="empty"></td>
+        <td id="bottom-right" data-row="bottom" data-col="right" data-contents="empty"></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <nav id="game-end-buttons">
+    <button id="new-game-button" class="disabled">New Game</button>
+    <button id= "give-up-button" class="disabled">Give Up</button>
+  </nav>
+</body>
+
+</html>
